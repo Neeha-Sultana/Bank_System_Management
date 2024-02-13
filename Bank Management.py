@@ -36,8 +36,6 @@ def signup():
         print("--------------SIGNED UP SUCCESSFULLY---------------")
         wa = input("Press any key to go to Main Menu: ")
         break
-
-
 #2. LOGIN AND BANK DETAILS
 def login_and_bank():
     while(True):

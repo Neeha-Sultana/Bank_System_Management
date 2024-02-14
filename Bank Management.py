@@ -212,7 +212,6 @@ def login_and_bank():
                     a = input()
                     exit()
 
-
                 # FOR INVALID INPUT
                 else:
                     s = input("Enter SPACE to go to previous Menu and 0 to retry")

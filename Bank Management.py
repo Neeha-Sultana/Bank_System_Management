@@ -199,7 +199,6 @@ def login_and_bank():
                         print("You have entered wrong password. Press Enter to exit")
                         exit()
 
-
                 # 3. MAIN MENU
                 elif a == 3:
                         s = input("Press Enter to go to Main Menu")

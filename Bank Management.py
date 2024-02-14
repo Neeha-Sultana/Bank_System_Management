@@ -229,7 +229,6 @@ def login_and_bank():
                     a = input("You have entered wrong password. press enter to retry")
                     continue
 
-
 #EXIT
 def exitfunc():
      while(True):

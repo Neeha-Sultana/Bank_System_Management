@@ -254,4 +254,3 @@ while(True):
         login_and_bank()
     elif opt==3:
         exitfunc()
-

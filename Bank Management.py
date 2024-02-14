@@ -93,7 +93,6 @@ def login_and_bank():
                         clrprint("5. CSV FILING",clr="g")
                         clrprint("6. DELETE ACCOUNT",clr="default")
                         ch=int(input("ENTER YOUR CHOICE: "))
-    
                         # A. PROCEDURE FOR CREATING A NEW ACCOUNT OF THE APPLICANT
                         if(ch==1):
                             print("************CREATE ACCOUNT**************")

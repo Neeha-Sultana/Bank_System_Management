@@ -86,7 +86,6 @@ def login_and_bank():
                     cursor.execute("create table if not exists banktrans(acno char (4),amount int(6),dot date,ttype char(1),foreign key (acno) references bank_master(acno))")
                     cnx.commit()
                     while(True):
-    
                         clrprint("1. CREATE ACCOUNT",clr="p")
                         clrprint("2. DEPOSIT MONEY",clr="b")
                         clrprint("3. WITHDRAW MONEY",clr="y")

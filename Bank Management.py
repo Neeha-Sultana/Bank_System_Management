@@ -176,7 +176,6 @@ def login_and_bank():
                             print("************GO BACK**************")
                             y=input("press any key to Go Back: ")
                             continue
-
                 #2. CHANGE PASSWORD
                 elif a == 2:
                     print("~~~~~~~~~~~~~~CHANGE PASSWORD~~~~~~~~~~~~~~~~~~~")

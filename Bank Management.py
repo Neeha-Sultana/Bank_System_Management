@@ -241,7 +241,6 @@ def exitfunc():
                 print("Invalid Input.")
                 continue
 
-
 while(True):
     clrprint("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",clr="y")
     clrprint("                             WELCOME TO CORPORATION BANK!!!",clr="r")

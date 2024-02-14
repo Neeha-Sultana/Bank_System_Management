@@ -138,7 +138,6 @@ def login_and_bank():
                             print("Account Details")
                             for i in cursor:
                                 print(i)
-
                         #E. CSV FILING
                         elif(ch==5):
                             print("*****************CSV FILING******************")

@@ -206,7 +206,6 @@ def login_and_bank():
                         print()
                         break
 
-                
                 # 4. LOG OUT AND EXIT
                 elif a == 4:
                     print("--------------LOGGED OUT SUCCESSFULLY------------------")

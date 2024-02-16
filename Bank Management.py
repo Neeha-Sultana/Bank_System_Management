@@ -67,8 +67,6 @@ def login_and_bank():
                 clrprint("3. MAIN MENU",clr="g")
                 clrprint("4. LOG OUT AND EXIT",clr="default")
                 a = int(input("ENTER YOUR CHOICE: "))
-
-
                 #1.  BANK TRANSACTION
                 if a==1:
                     # SOURCE CODE FOR BANKING TRANSACTIONS

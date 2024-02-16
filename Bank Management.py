@@ -165,7 +165,6 @@ def login_and_bank():
                             else:
                                 z=input("Press Enter to go back to Main Menu: ")
                                 
-                        
                         #F. LOGOUT
                         else:
                             print("************GO BACK**************")

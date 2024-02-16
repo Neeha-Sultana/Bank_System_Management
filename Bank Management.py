@@ -126,7 +126,6 @@ def login_and_bank():
                             cursor.execute("update bank_master set balance=balance-'"+str(wd)+"' where acno='"+acno+"'")
                             cnx.commit()
                             print("------Amount has been withdrawn successfully!!!-------")
-
                         # D. PROCEDURE FOR DISPLAYING THE ACCOUNT OF THE ACCOUNT HOLDER AFTER HE/SHE ENTERS HIS/HER ACCOUNT NUMBER
                         elif(ch==4):
                             print("************DISPLAY ACCOUNT**************")

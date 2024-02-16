@@ -46,7 +46,6 @@ def login_and_bank():
                 s = a.read()
                 p = input("PASSWORD: ")
                 a.close()
-
             except:
                 print("INVALID USERNAME")
                 s = int(input("Enter 9 to go to previous menu and 0 to retry: "))

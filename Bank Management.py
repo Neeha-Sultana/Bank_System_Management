@@ -156,7 +156,6 @@ def login_and_bank():
                             csvwrite_module(dbname,tablename)
 
 
-
                         elif (ch==6):
                             print("****************DELETE ACCOUNT*********************")
                             acno=str(input("ENTER THE ACCOUNT NUMBER WHICH HAS TO BE DELETED: "))

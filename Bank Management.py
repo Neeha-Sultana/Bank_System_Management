@@ -163,7 +163,6 @@ def login_and_bank():
                                 print("---------Account deleted successfully-----------")
                             else:
                                 z=input("Press Enter to go back to Main Menu: ")
-                                
                         #F. LOGOUT
                         else:
                             print("************GO BACK**************")

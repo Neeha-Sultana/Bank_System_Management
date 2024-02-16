@@ -214,7 +214,6 @@ def login_and_bank():
                         print("Invalid Input")
                         a = input("Press Enter to Exit...")
                         exit()
-
             # IF PASSWORD ENTERED IS WRONG 
             else:
                     a = input("You have entered wrong password. press enter to retry")

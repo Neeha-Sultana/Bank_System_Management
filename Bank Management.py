@@ -8,6 +8,7 @@ while True:
     s=a.read()
     if ps==s:
         print("Valid Password")
+        
         break
     else:
         print("Invalid Password")

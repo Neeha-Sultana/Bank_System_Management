@@ -12,6 +12,7 @@ while True:
     else:
         print("Invalid Password")
     a.close()
+    
 #1. SIGN UP
 def signup():
     while(True):

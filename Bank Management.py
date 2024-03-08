@@ -102,7 +102,6 @@ def login_and_bank():
                             cursor.execute("insert into bank_master values('"+acno+"','"+name+"','"+city+"','"+str(mn)+"','"+str(balance)+"')")
                             cnx.commit()
                             print("------Account is successfully created!!!------")
-
                         # B. PROCEDURE FOR UPDATING DETAILS AFTER THE DEPOSITION OF MONEY BY THE APPLICANT
                         elif(ch==2):
                             print("************DEPOSIT MONEY********************")

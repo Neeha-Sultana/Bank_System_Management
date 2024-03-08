@@ -147,7 +147,6 @@ def login_and_bank():
                                 for i in file:
                                     print(i)
                                 print("Data of", tablename, "table from database",dbname, "is converted to csv file name",dbname+".csv","and printed sucessfully: \n")
-
                             dbname = "bank"
                             tablename = input("Please enter Table name(bank_master or banktrans): ")
                             csvwrite_module(dbname,tablename)

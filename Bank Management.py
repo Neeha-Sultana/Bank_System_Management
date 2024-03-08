@@ -113,7 +113,6 @@ def login_and_bank():
                             cursor.execute("update bank_master set balance=balance+'"+str(dp)+"' where acno='"+acno+"'")
                             cnx.commit()
                             print("------Amount has been deposited successully!!!-------")
-
                         # C. PROCEDURE FOR UPDATING THE DETAILS OF ACCOUNT AFTER THE WITHDRAWAL OF MONEY BY THE APPLICANT
                         elif(ch==3):
                             print("************WITHDRAW MONEY**************")

@@ -15,7 +15,6 @@ from clrprint import *
 
 
 
-
 import mysql.connector
 import csv
 print("<^> <^> <^> <^> <^> <^> <^> <^>BANK MANAGEMENT SYSTEM<^> <^> <^> <^> <^> <^> <^> <^>")

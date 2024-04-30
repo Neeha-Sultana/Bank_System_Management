@@ -10,7 +10,6 @@ while True:
         print("Valid Password")
         break
     else:
-
         
         print("Invalid Password")
     a.close()

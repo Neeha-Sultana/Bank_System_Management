@@ -15,7 +15,6 @@ while True:
 #1. SIGN UP
 def signup():
 
-    
     while(True):
         print("~~~~~~~~~~~~~~~~~~~SIGN UP~~~~~~~~~~~~~~~~~~~~~~~~~")
         a = input("USERNAME(more than 3 characters): ")

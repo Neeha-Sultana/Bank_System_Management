@@ -9,8 +9,7 @@ while True:
     if ps==s:
         print("Valid Password")
         break
-    else:  
-   
+    else:    
         print("Invalid Password")
     a.close()
 #1. SIGN UP
